@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>    
+    <style>
+            *{
+                background-color: purple
+            }
+            #id4{
+                background-color: darkgreen;
+            }
+
+        </style>
+        <link rel = "stylesheet" href = "cssinheritance.css"> <!-- Whatever Comes later overrides prev-->        
+</head>
+<body><!-- Overriding can be viewed in inspect element of browser -->
+    <div class = "class1" id = "id1">This is Div 1</div>    
+    <div class = "class1" id = "id2">This is Div 2</div>
+    <div class = "class2" id = "id3">This is Div 3</div>
+    <div style = "background-color:lightyellow" id = "id4"> This is Div 4</div>
+    <!-- in case of div4 styling , first global selectors will be overridden , then element selectors will be 
+        overridden , then class elements will be overridden , then id elemens will be overridden 
+        id > class > element > * 
+    -->
+</body>
+</html>
