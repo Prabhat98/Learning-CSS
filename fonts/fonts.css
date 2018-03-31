@@ -1,0 +1,36 @@
+#para1 
+{
+    font-size: 50pt;
+}
+#id1 
+{
+    font-size: 40px;
+}
+#id2 
+{
+    font-size:7em; 
+}
+#id3 
+{
+    font-size: 10vh;
+}
+#id4 
+{
+    font-size: 10vw;
+}
+#para2 
+{
+    font-family: monospace;
+    font-size: 20px
+}
+#para3 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#para4 
+{
+    font-style: italic;
+    font-weight: bold;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
