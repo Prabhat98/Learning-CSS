@@ -1,0 +1,19 @@
+/*li li   all the li's that are the  decendents of li get hidden  
+{
+    display:none;
+}*/
+/* ul li will hide all the content coz one , two and three all the decendents of ul */
+/*li:hover li /* this will display all the decendents when hovered over parent
+and we want only direct child to be displayed  
+{
+    display:block;
+}*/
+
+ul ul /* all the ul's that are decendents of ul be hidden */
+{
+    display:none;
+}
+li:hover >ul /* all the ul's that are direct child of li be displayed when hovered on li */
+{
+    display : block;
+}/*means li se one step down jo hai that will be shown */
