@@ -13,12 +13,20 @@ body
     background-color: aquamarine;
     border:dashed black 5px;
 }
+#div1:hover 
+{
+    background-color: yellow;
+}
 #div2
 {
     padding:5px;
     margin-right: 100px;
     background-color: tomato;
     border:dashed black 5px;
+}
+#div2:hover 
+{
+    background-color:lightpink;
 }
 #div3
 {
@@ -27,6 +35,10 @@ body
     border:dashed black 5px;
     background-color: violet;
     margin-top:3px;
+}
+#div3:hover 
+{
+    background-color: lightgreen;
 }
 #divonepoint
 {
