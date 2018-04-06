@@ -1,0 +1,41 @@
+div 
+{
+    background-color:lightcyan;
+    border:black solid 5px;
+    margin:10px;
+    padding:10px;
+}
+/*#div2 
+{
+    position: fixed;
+}*/
+#div3 
+{
+    /*position:static; static is by default , does nothing 
+    top:30px; top,right,left,bottom has not affect on static
+    */
+
+   /*position:relative;
+    top:40px;
+    left:20px;
+    */
+
+    /*position: fixed; positioned relative to viewport
+    left:50px;
+    bottom:50px;
+    */
+
+    /*position: absolute;
+    left:100px;
+    */
+}
+#div4 
+{
+    position: sticky;
+    top:50px;
+}
+#div1 
+{
+    position: sticky;
+    top:0px;
+}
