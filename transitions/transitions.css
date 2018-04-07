@@ -1,0 +1,42 @@
+.div
+{
+    margin:100px;
+}
+#div1 
+{
+    background-color: red;
+    height:100px;
+    width:100px;
+    border:solid black 5px;
+    font-weight: bold;
+    padding:10px;
+    font-size: 20px;
+}
+#div1:hover 
+{
+    background-color: yellow;
+    transform:rotate(-180deg);
+    height:150px;
+    width:150px;
+    font-size: 50px;
+    font-style: italic;
+    transition : height 2s,width 2s, background-color 2s ,font-size 2s, font-style 2s,transform 2s ;
+}
+div+div 
+{
+    background-color: aqua;
+    height:50px;
+    width:50px;
+    border:dashed black 5px;
+}
+div:hover+div 
+{
+    background-color: tomato;
+    transform: rotate(180deg);
+    height:60px;
+    width:60px;
+    margin-left:200px;
+    transition:margin-left 2s,height 2s,width 2s,border 2s,background-color 2s,transform 2s ;
+}
+
+ 
