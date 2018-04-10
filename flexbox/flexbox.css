@@ -1,0 +1,57 @@
+.container 
+{
+    background-color: lightpink;
+    height:400px;
+    display: flex;
+    /*flex-direction: row; this is default
+    flex-direction:row-reverse;
+    flex-direction:column;
+    flex-direction:column-reverse;
+    */    
+    /*flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    flex-wrap: nowrap; this is default
+    */
+    /*justify-content: space-between;
+    justify-content: space-around;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    */
+    /*align-items: stretch;
+    align-items: center;
+    align-items:flex-end;
+    align-items: flex-start;
+    */ 
+}
+.item 
+{
+    height:50px;
+    width:50px;
+    margin:20px;
+    padding:20px;
+    background-color: cyan;
+    font-size: 30px;
+    border:black solid 5px;
+}
+#id1
+{
+    order:3; /* anything not ordered comes first and everything ordered comes in the end */
+    /*flex-grow: 4;*/
+}
+#id2 
+{
+    order:4;
+    flex-shrink: 1;
+}
+#id3 
+{
+    order:1;
+    /*flex-grow: 3;*/
+}
+#id4 
+{
+    order:-2;
+    /*flex-grow: 2*/
+    align-self: flex-end;
+}
