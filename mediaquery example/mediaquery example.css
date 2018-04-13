@@ -1,0 +1,14 @@
+.container 
+{
+    display:flex;
+}
+.item 
+{
+    background-color: lightcoral;
+}
+.content 
+{
+    background-color: lightyellow; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

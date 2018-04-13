@@ -1,0 +1,85 @@
+#div 
+{
+    width:150px;
+    height:150px;
+    background-color: tan;
+}
+/*@keyframes color 
+{
+    from
+    {
+        background-color: tan;
+        transform: rotate(0deg);
+    }
+    to 
+    {
+        background-color: black;
+        transform: rotate(90deg);
+    }
+}
+*/
+@keyframes size 
+{
+    from 
+    {
+        height: 150px;
+        width: 150px;
+        background-color: teal;
+    }
+    to 
+    {
+        height:80px;
+        width:80px;
+        background-color: chartreuse;
+    }
+}
+@media (max-width:1500px) and (min-width:1000px)
+{
+    #div 
+    {
+        /*animation-name: color;
+        animation-duration: 2s;
+        */
+        background-color: black;
+    }
+}
+@media (max-width:1000px) and (min-width:750px)
+{
+    #div 
+    {
+        background-color:brown;
+    }
+}
+@media (max-width:750px) and (min-width:500px)
+{
+    #div 
+    {
+        background-color: teal;
+    }
+}
+@media (max-width:500px)
+{
+    #div 
+    {
+        animation-name: size;
+        animation-duration: 2s;        
+    }
+}
+/*now even changing the order wont have any affect on color*/
+/*@media (max-width:800px) and (min-width:750px) 
+{
+    #div 
+    {
+        background-color: black
+    }
+}
+@media (max-width:500px) and (min-width:450px)
+{
+    #div 
+    {
+        background-color: brown;
+    }
+}
+the remaining region other than the above two will give default color (tan) to the div 
+*/
+
